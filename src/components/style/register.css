@@ -1,0 +1,179 @@
+.signup-form input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 120%;
+    font-size: medium;
+    border: solid;
+    border-color: silver;   
+}
+.signup-form1 input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 120%;
+    font-size: medium;
+    border: solid;
+    border-color: silver;   
+}
+.lbt1 button{
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #ff914d;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: larger;
+    margin-left: 25%;
+    color: white;
+    font-weight: bold;   
+}
+
+button:hover
+{
+    background-color: rgb(154, 65, 33);
+}
+.box
+{
+    display: block;
+    padding:  33px 100px;
+    color: black;
+    margin-left: 200px;
+    height: 450px; 
+    background-color: white;
+    float:center;
+    border-radius: 10px;
+    font-size: medium;
+   
+}
+#Student,#gender,#date
+{
+    color: #ff914d;
+}
+#gender,#Student
+{
+    padding: 10px;
+    width: 120%;
+    font-size: medium;
+    border-radius: 10px;
+    display: block;
+    border: solid;
+    border-color: silver;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.page
+{
+    background-color: whitesmoke;
+    height: 620px;
+    padding: auto;  
+    max-width: 100%; 
+    position: fixed;
+}
+.logoin img
+{
+    float: left;
+    height: 55px;
+    width:auto;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.sign
+{
+    display: flex;
+    padding: 10px;
+    margin-left: 11%;
+}
+.sign u
+{
+    cursor: pointer;
+    color: #ff914d;
+    margin-left: 20px;
+}
+.reqd
+{
+   justify-content: flex;
+   gap: auto;
+}
+.sp
+{
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+@media (max-width: 2560px) and (min-width: 1024px){
+    .box 
+    {
+        width: 850px;
+        padding: 20px;
+        height: auto;
+        align-items: center;
+        margin-left: 11%; 
+    }  
+    .page
+    {
+        min-width: 2560px;
+        height: 928px;
+    }
+    .sp
+    {
+        margin-left: 10%;
+    }
+    input 
+    {
+        width: 100%;
+        padding: 8px;
+    }
+    .lbt1 button 
+    {
+        width: 35%;
+        font-size: large;
+        margin-left: 33%;
+    }
+   
+}
+
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 768px) and (min-width: 320px) {
+    .box {
+        width: 100%;
+       
+        height: auto;
+        margin-left: 1%;
+    }
+    .page {
+      /* Adjust the width to fit within the viewport */
+        min-width: 320px; /* Remove fixed min-width */
+        max-width: 768px;
+        height: 928px;
+       /* Adjust height if needed */
+    }
+    input {
+        width: 100%; /* Ensure input fits perfectly */
+        font-size: small;
+    }
+    .lbt1 button {
+        width: 100%;
+        font-size: medium;
+        margin-left: 0;
+    }
+    .logoin img {
+        height: 40px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
