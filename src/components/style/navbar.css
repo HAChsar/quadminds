@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header{
+    background-color: white;
+    height: 65px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+
+}
+.logo img
+{
+    height: 65px;
+    width:auto;
+    margin-left: 25%;
+    cursor: pointer;
+    
+}
+
+.interview
+{
+    text-align: center;
+    margin-left: auto;
+    font-size: larger;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    flex-direction: row;
+    margin-left: 25%;
+
+}
+.interview :hover
+{
+    color: #ff914d;
+    
+}
+.resume
+{
+    text-align: center;
+    margin-left: 5%;
+    font-size: larger;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    flex-direction: row;
+    display: block;
+}
+.resume :hover
+{
+    color: #ff914d;
+}
+#displaynav
+{
+    background-color: white;
+    color: #ff914d;
+    width: 200px;
+    margin: auto;
+    border: transparent;
+    font-family: system-ui,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+    cursor: pointer;
+    height: 33px; 
+}
+.login {
+    display: flex;
+    padding: 15px;
+    align-items: right; 
+    flex-direction: row;
+    margin-left: auto;
+    position: relative;
+  }
+.login img
+{
+    height: 40px;
+    width: 50px;
+    margin-left: 5px;
+    align-items: right;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 2560px) and (min-width: 1024px){
+    .header 
+    {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        max-width: 2560px;
+        min-width: 1024px;
+        position: relative;
+    }
+    .logo img
+    {
+        margin-left: 1;
+    }
+    .interview, .resume
+    {
+        margin-left: 5%;
+        font-size: larger;
+        position: relative;
+    }
+    .login 
+    {
+        flex-direction: row;
+        margin-right: 0;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .header {
+      flex-direction: row;
+      max-width: 1024px;
+      min-width: 768px;
+      height: 65px;
+      position: relative;
+    }
+    .logo img {
+      height: 50px;
+      margin-left: 1px; /* Added unit to margin-left */
+      position: relative;
+    }
+    .interview, .resume {
+      margin-left: 5%;
+      font-size: small;
+      position: relative;
+    }
+    .login img {
+      height: auto;
+    }
+    .login {
+      flex-direction: row;
+      margin-right: 0;
+    }
+    #displaynav {
+      font-size: medium;
+    }
+  }
+  
+
+/* Media query for mobile devices */
+@media (max-width: 768px) and (min-width:320px){
+    .header {
+        flex-direction: row;
+        min-width: 768px;
+        height: 65px;
+        position: relative;
+        width: 100%;
+    }
+    .logo img {
+        height: 50px;
+        margin-left: 1;
+        position: relative;
+    }
+    .interview, .resume {
+        margin-left: 5%;
+        font-size: small;
+        position: relative;
+    }
+    .login img
+    {
+        height: auto;
+        
+    }
+    .login {
+        flex-direction: row;
+        margin-left: 0;
+       
+    }
+    #displaynav {
+        font-size: medium;
+       
+     }
+    }
+
+
+
+
+
